@@ -1,0 +1,24 @@
+<template>
+  <svg
+    width="65"
+    height="65"
+    viewBox="0 0 65 65"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_5_447)">
+      <rect width="65" height="65" rx="8" fill="#595959" />
+      <path
+        class="path"
+        d="M0 -4L24.7426 82L51 -4"
+        stroke="#B2B2B2"
+        stroke-width="18"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_5_447">
+        <rect width="65" height="65" rx="8" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+</template>
