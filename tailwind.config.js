@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         base: {
-          bg: '#201D1D'
+          bg: '#201D1D',
+          block: '#363434',
+          navbar: '#444242'
         }
       }
     }

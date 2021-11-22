@@ -156,12 +156,3 @@
     </svg>
   </div>
 </template>
-
-<style>
-.func-hidden:hover .link {
-  opacity: 0.6;
-}
-.link:hover{
-  opacity: 1 !important;
-}
-</style>

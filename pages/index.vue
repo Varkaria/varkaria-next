@@ -1,8 +1,12 @@
 <template>
-  <div id="home" class="h-full">
-    <HomeTextanimation class="absolute bottom-0 left-0 rotate" />
+  <div id="home" class="h-min-screen">
+    <HomeTextanimation
+      class="absolute bottom-0 left-0 hidden rotate 2xl:block"
+    />
 
-    <div class="flex items-center h-full">
+    <div class="flex flex-col justify-between h-min-screen py-24">
+      <div class="blank" />
+
       <div id="title" class="font-semibold">
         <h1
           v-anime="{
@@ -21,11 +25,13 @@
             delay: 200,
             easing: 'linear'
           }"
-          class="text-2xl"
+          class="text-3xl"
         >
           Pavaresorn Malai
         </h2>
       </div>
+
+      <MainContacts />
     </div>
   </div>
 </template>
@@ -40,7 +46,7 @@ export default {}
 }
 
 .title-text {
-  font-size: 8rem;
-  line-height: 9rem;
+  font-size: 10rem;
+    line-height: 11rem;
 }
 </style>
