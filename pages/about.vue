@@ -1,7 +1,7 @@
 <template>
   <div
     id="about"
-    class="flex flex-col items-center justify-between py-32 lg:py-16 h-min-screen"
+    class="flex flex-col items-center justify-between py-32 h-min-screen"
   >
     <div class="blank" />
 

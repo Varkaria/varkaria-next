@@ -1,14 +1,14 @@
 <template>
   <div
     id="projects"
-    class="flex flex-col items-center justify-between py-32 lg:py-16 h-min-screen"
+    class="flex flex-col items-center justify-between py-32 h-min-screen"
   >
     <div class="blank" />
 
     <div class="w-full">
       <MainTitle title="Projects" subtitle="List of my project i did it" />
 
-      <div class="grid content-center gap-4 px-2 mt-6 lg:px-24 lg:grid-cols-3">
+      <div class="grid content-center gap-4 px-2 mt-6 lg:px-24 lg:grid-cols-2 2xl:grid-cols-3">
         <ProjectMain
           v-for="(p, index) in projects"
           :key="index"
