@@ -1,12 +1,25 @@
 <template>
   <div id="navbar" class="fixed w-full lg:bg-transparent bg-base-navbar">
     <nav class="items-center hidden gap-4 py-12 v-container lg:flex">
-      <nuxt-link to="/">
-        <NavbarEleLogo
-          class="transition-all transform cursor-pointer hover:scale-105"
-        />
-      </nuxt-link>
-
+      <div class="flex items-center gap-6">
+        <nuxt-link to="/">
+          <NavbarEleLogo
+            class="transition-all transform cursor-pointer hover:scale-105"
+          />
+        </nuxt-link>
+        <div class="w-1 h-6 bg-white rounded-lg" />
+        <a
+          href="https://webring.wonderful.software#varkaria.tech"
+          title="วงแหวนเว็บ"
+        >
+          <img
+            src="https://webring.wonderful.software/webring.white.svg"
+            alt="วงแหวนเว็บ"
+            width="48px"
+            height="48px"
+          >
+        </a>
+      </div>
       <NavbarEleItem
         v-for="(i, index) in items"
         :key="index"
@@ -54,12 +67,21 @@
           <div
             class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start"
           >
-            <div class="flex items-center flex-shrink-0">
+            <div class="flex items-center flex-shrink-0 gap-2">
               <nuxt-link to="/">
-                <NavbarEleLogo
-                  class="transform rounded-md cursor-pointer tranform bruh-logo"
-                />
+                <NavbarEleLogo class="bruh-logo" />
               </nuxt-link>
+              <a
+                href="https://webring.wonderful.software#varkaria.tech"
+                title="วงแหวนเว็บ"
+              >
+                <img
+                  src="https://webring.wonderful.software/webring.white.svg"
+                  alt="วงแหวนเว็บ"
+                  width="24px"
+                  height="24px"
+                >
+              </a>
             </div>
           </div>
         </div>
@@ -88,6 +110,10 @@ export default {
       isMobileOpen: false,
       items: [
         {
+          title: 'Home',
+          to: '/'
+        },
+        {
           title: 'About me',
           to: '/about'
         },
@@ -111,7 +137,7 @@ export default {
 </script>
 
 <style>
-  .bruh-logo {
-    transform: scale(0.8);
-  }
+.bruh-logo {
+  transform: scale(0.8);
+}
 </style>

@@ -23,7 +23,7 @@
       <div
         v-show="isLoading"
         id="loading-screen"
-        class="absolute top-0 flex items-center justify-center w-screen h-screen z-60"
+        class="absolute top-0 flex items-center justify-center w-screen h-screen  z-60"
       >
         <svg
           class="w-12 h-12 text-white animate-spin"
@@ -47,6 +47,8 @@
         </svg>
       </div>
     </transition>
+
+    <MainLoading />
   </div>
 </template>
 
@@ -56,6 +58,9 @@ export default {
     return {
       isLoading: true
     }
+  },
+  head: {
+    title: 'Hi'
   },
   mounted () {
     this.isLoading = false

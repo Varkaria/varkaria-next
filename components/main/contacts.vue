@@ -22,17 +22,22 @@ export default {
         {
           name: 'Facebook',
           icon: 'facebook',
-          to: 'https://www.facebook.com/'
+          to: 'https://www.facebook.com/varkaria'
         },
         {
           name: 'Github',
           icon: 'github',
-          to: 'https://www.facebook.com/'
+          to: 'https://github.com/varkaria'
         },
         {
-          name: 'Twitter',
-          icon: 'twitter',
-          to: 'https://www.facebook.com/'
+          name: 'Fiverr',
+          icon: 'fiverr',
+          to: 'https://www.fiverr.com/varkaria'
+        },
+        {
+          name: 'Spotify',
+          icon: 'spotify',
+          to: 'https://open.spotify.com/user/bmquj3y7m162v7vqtsbw4zxj8?si=8df13610ec0d4d8f'
         }
       ]
     }
