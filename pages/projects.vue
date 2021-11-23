@@ -40,20 +40,20 @@ export default {
           title: 'guweb',
           description:
             'a frontend continue in gulag-web project from modern stack, gulag.',
-          to: '/',
+          to: 'https://github.com/Varkaria/guweb',
           icon: 'github'
         },
         {
           title: 'guweb-nuxt',
           description:
             'a frontend continue in gulag-web project but use Nuxt framework.',
-          to: '/',
+          to: 'https://github.com/Varkaria/guweb-nuxt',
           icon: 'github'
         },
         {
           title: 'kemona',
           description: 'new website design for kemono projects. but when?',
-          to: '/',
+          to: 'https://github.com/Varkaria/kemona',
           icon: 'github'
         },
         {
@@ -72,13 +72,20 @@ export default {
         {
           title: 'kk-discord-rpc',
           description: 'a little plugin discord rich presence for Koikatsu.',
-          to: '/',
+          to: 'https://github.com/NiggoJaecha/kk-discord-rpc',
           icon: 'github'
         },
         {
           title: 'bulma-hsl',
           description:
             '👽 a little framework for who want to customise color easier bulma-hsl.',
+          to: 'https://github.com/Varkaria/bulma-hsl',
+          icon: 'github'
+        },
+        {
+          title: 'VVRS',
+          description:
+            'a little storage with minimal frontend.',
           to: '/',
           icon: 'github'
         }
